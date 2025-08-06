@@ -1,0 +1,61 @@
+Subject,Percentile,Firstscore,Convertedscore
+Biology,90%,54.0,627.0
+Biology,75%,42.0,569.0
+Biology,60%,35.0,527.0
+Biology,50%,31.0,496.0
+Biology,40%,29.0,479.0
+Biology,25%,24.0,434.0
+Chemistry,90%,56.0,628.0
+Chemistry,75%,39.0,566.0
+Chemistry,60%,32.0,522.0
+Chemistry,50%,29.0,499.0
+Chemistry,40%,26.0,473.0
+Chemistry,25%,22.0,433.0
+English,90%,67.0,627.0
+English,75%,45.0,567.0
+English,60%,33.0,527.0
+English,50%,29.0,503.0
+English,40%,25.0,472.0
+English,25%,21.0,428.0
+Geology,90%,81.0,628.0
+Geology,75%,70.0,569.0
+Geology,60%,60.0,525.0
+Geology,50%,55.0,501.0
+Geology,40%,51.0,475.0
+Geology,25%,44.0,434.0
+History,90%,67.3,627.2
+History,75%,52.0,566.0
+History,60%,44.0,522.0
+History,50%,41.0,502.0
+History,40%,37.0,472.0
+History,25%,32.0,431.0
+Mathematics,90%,31.0,626.0
+Mathematics,75%,23.0,564.0
+Mathematics,60%,20.0,530.0
+Mathematics,50%,18.0,503.0
+Mathematics,40%,16.0,474.0
+Mathematics,25%,13.0,426.0
+Mongolian language studies,90%,59.0,631.0
+Mongolian language studies,75%,50.0,564.0
+Mongolian language studies,60%,45.0,524.0
+Mongolian language studies,50%,42.0,500.0
+Mongolian language studies,40%,39.0,474.0
+Mongolian language studies,25%,34.0,428.0
+Physics,90%,63.0,628.0
+Physics,75%,46.0,568.0
+Physics,60%,38.0,527.0
+Physics,50%,34.0,501.0
+Physics,40%,31.0,476.0
+Physics,25%,27.0,436.0
+Russian,90%,94.0,621.0
+Russian,75%,89.0,570.0
+Russian,60%,79.2,524.6
+Russian,50%,71.5,500.5
+Russian,40%,58.8,474.6
+Russian,25%,41.0,433.0
+Social study,90%,58.0,628.0
+Social study,75%,43.0,567.0
+Social study,60%,36.0,526.0
+Social study,50%,33.0,503.0
+Social study,40%,30.0,477.0
+Social study,25%,26.0,437.0
