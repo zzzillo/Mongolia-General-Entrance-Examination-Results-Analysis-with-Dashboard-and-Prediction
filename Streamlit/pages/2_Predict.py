@@ -8,7 +8,7 @@ model = joblib.load("Streamlit/rf_percentile_model.pkl")
 
 st.markdown("""
     <div style="background-color:#113f67;padding:15px;margin:-2rem -1rem 2rem -1rem;color:#58a0c8">
-        <h1 style="color:#e6f6ff;text-align:center;font-size:36px">Mongolia General Entrance Exam Results Results Predict Percentile</h1>
+        <h1 style="color:#e6f6ff;text-align:center;font-size:36px">Mongolian General Entrance Exam Results Results Predict Percentile</h1>
     </div>
 """, unsafe_allow_html=True)
 tab1, tab2 = st.tabs(["Predict Converted Score Percentile", "Predict First Score Percentile by Subject"])

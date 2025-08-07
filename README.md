@@ -1,8 +1,8 @@
-# Mongolia General Entrance Examination Results Analysis & Dashboard
+# Mongolian General Entrance Examination Results Analysis & Dashboard
 
 ## Project Overview
 
-This project analyzes student performance data from the result of Mongolia General Entrance Examinations across multiple subjects and provinces. The objective is to consolidate various subject-specific exam datasets into a unified structure and develop interactive tools to uncover insights about student scores, regional disparities, percentile benchmarks, and exam participation trends.
+This project analyzes student performance data from the result of Mongolian General Entrance Examinations across multiple subjects and provinces. The objective is to consolidate various subject-specific exam datasets into a unified structure and develop interactive tools to uncover insights about student scores, regional disparities, percentile benchmarks, and exam participation trends.
 
 The project follows a complete data science workflow, including data cleaning, exploratory data analysis (EDA), visualization, and predictive modeling.
 

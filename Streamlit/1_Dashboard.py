@@ -3,12 +3,12 @@ import pandas as pd
 import plotly.express as px
 import json
 
-st.set_page_config(page_title="Mongolia General Entrance Exam Results Dashboard", layout="wide")
+st.set_page_config(page_title="Mongolian General Entrance Exam Results Dashboard", layout="wide")
 df = pd.read_csv("Streamlit/Combined Dataset.csv")
 
 st.markdown("""
     <div style="background-color:#113f67;padding:15px;margin:-2rem -1rem 2rem -1rem;color:#58a0c8">
-        <h1 style="color:#e6f6ff;text-align:center;font-size:36px">Mongolia University Entrance Exam Results Dashboard</h1>
+        <h1 style="color:#e6f6ff;text-align:center;font-size:36px">Mongolian University Entrance Exam Results Dashboard</h1>
     </div>
 """, unsafe_allow_html=True)
 
