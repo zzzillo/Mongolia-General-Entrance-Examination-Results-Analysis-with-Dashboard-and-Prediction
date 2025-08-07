@@ -4,7 +4,7 @@ import joblib
 from statsmodels.distributions.empirical_distribution import ECDF
 
 df = pd.read_csv("Combined Dataset.csv")
-model = joblib.load("../rf_percentile_model.pkl")
+model = joblib.load("rf_percentile_model.pkl")
 st.markdown("""
     <div style="background-color:#113f67;padding:15px;margin:-2rem -1rem 2rem -1rem;color:#58a0c8">
         <h1 style="color:#e6f6ff;text-align:center;font-size:36px">Mongolian University Entrance Exam Results Predict Percentile</h1>
@@ -16,7 +16,7 @@ with tab1:
     st.markdown("<h3 style='text-align:center; color:#113f67;'>Predict Percentile using Converted Score</h3>", unsafe_allow_html=True)
     converted_score = st.number_input("Enter Converted Score (200–800):", min_value=200, max_value=800, step=1)
     prediction = None  
-    col1, col2, col3 = st.columns([5, 2, 5])
+    col1, col2, col3 = st.columns([2, 2, 2])
     with col2:
         if st.button("Predict Percentile", key="ml_predict"):
             input_df = pd.DataFrame({"Convertedscore": [converted_score]})
@@ -33,7 +33,7 @@ with tab2:
 
     with col2: 
         first_score = st.number_input("Enter First Score (0–100):", min_value=0, max_value=100, step=1)
-    col3, col4, col5 = st.columns([5, 2, 5])
+    col3, col4, col5 = st.columns([2, 2, 2])
     percentile_result = None
     error_flag = False
 
