@@ -38,18 +38,21 @@ A business intelligence dashboard that provides:
 
 ## Repository Structure
 
-├── Notebook/
-│ ├── dataset/
-│ │ └── [Contains all raw datasets used in the project]
-│ ├── Documentation.ipynb # Contains the data science workflow and analysis
-│
-├── Streamlit/
-│ ├── 1_Dashboard.py # Main Streamlit application
-│ └── [Additional files for deployment and app logic]
-│
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+- **Notebook/**  
+  This folder contains the data science and analysis components:
+  - **dataset/**: Contains all raw datasets used in the project.
+  - **Documentation.ipynb**: A Jupyter notebook that includes the full data science workflow, from data cleaning to analysis and visualization.
 
+- **Streamlit/**  
+  This folder contains the code for the interactive web application:
+  - **1_Dashboard.py**: The main Streamlit app used for user interaction and deployment.
+  - Other necessary files used by the app are also included in this folder.
+
+- **requirements.txt**  
+  Lists all the Python libraries needed to run the project.
+
+- **README.md**  
+  Explains the project overview, purpose, usage, and structure.
 
 ## Installation Guide
 
