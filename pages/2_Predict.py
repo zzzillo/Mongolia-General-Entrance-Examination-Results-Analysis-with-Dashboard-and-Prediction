@@ -16,7 +16,7 @@ with tab1:
     st.markdown("<h3 style='text-align:center; color:#113f67;'>Predict Percentile using Converted Score</h3>", unsafe_allow_html=True)
     converted_score = st.number_input("Enter Converted Score (200–800):", min_value=200, max_value=800, step=1)
     prediction = None  
-    col1, col2, col3 = st.columns([2, 2, 2])
+    col1, col2, col3 = st.columns([7, 4, 6])
     with col2:
         if st.button("Predict Percentile", key="ml_predict"):
             input_df = pd.DataFrame({"Convertedscore": [converted_score]})
@@ -33,7 +33,7 @@ with tab2:
 
     with col2: 
         first_score = st.number_input("Enter First Score (0–100):", min_value=0, max_value=100, step=1)
-    col3, col4, col5 = st.columns([2, 2, 2])
+    col3, col4, col5 = st.columns([7, 4 , 6])
     percentile_result = None
     error_flag = False
 
