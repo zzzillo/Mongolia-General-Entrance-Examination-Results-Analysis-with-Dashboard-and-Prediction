@@ -1,4 +1,4 @@
-# Mongolian General Entrance Examination Results Analysis & Dashboard
+# Mongolia General Entrance Examination Results Analysis & Dashboard
 
 ## Project Overview
 
@@ -30,7 +30,7 @@ An interactive web application for:
 - Predicting percentiles using Machine Learning (Random Forest)
 - Estimating percentile via ECDF (Empirical Cumulative Distribution Function)
 
-[Open the Streamlit App](https://zzzillo-mongolia-university-entranc-streamlit1-dashboard-zunzyl.streamlit.app/)
+[Open the Streamlit App](https://zzzillo-mongolia-general-entrance-e-streamlit1-dashboard-padsre.streamlit.app//)
 
 ### Google Looker Dashboard
 
