@@ -67,22 +67,22 @@ Follow these steps to run the project locally:
 # 1. Clone the repository
 git clone https://github.com/zzzillo/Mongolia-University-Entrance-Examination-Results-Dashboard-and-Prediction.git
 
-#2. Navigate to the project directory
+# 2. Navigate to the project directory
 cd Mongolia-University-Entrance-Examination-Results-Dashboard-and-Prediction
 
-#3. (Optional) Create a virtual environment
-python -m venv venv
+# 3. (Optional) Create a virtual environment Version Python: 3.13.5
+python3.13 -m venv venv 
 
-#4. Activate the virtual environment
+#4 . Activate the virtual environment
   #On macOS/Linux:
   source venv/bin/activate
   #On Windows:
   venv\Scripts\activate
 
-#5. Install the required packages
+# 5. Install the required packages
 pip install -r requirements.txt
 
-#6. Run the Streamlit application
+# 6. Run the Streamlit application
 streamlit run Streamlit/1_Dashboard.py
 
 
