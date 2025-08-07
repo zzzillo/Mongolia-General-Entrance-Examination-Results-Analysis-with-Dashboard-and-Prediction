@@ -1,6 +1,6 @@
 [theme]
 base="dark"  # or "dark"
-primaryColor="#e6f6ff"       # buttons, highlights
+primaryColor="#58a0c8"       # buttons, highlights
 backgroundColor="#e6f6ff"    # main background
 secondaryBackgroundColor="#58a0c8"  # sidebar, widgets
 textColor="#113f67"          # normal text
