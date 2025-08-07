@@ -4,7 +4,7 @@ import plotly.express as px
 import json
 
 st.set_page_config(page_title="Mongolia National Exam Results Dashboard", layout="wide")
-df = pd.read_csv("Combined Dataset.csv")
+df = pd.read_csv("Streamlit/Combined Dataset.csv")
 
 st.markdown("""
     <div style="background-color:#113f67;padding:15px;margin:-2rem -1rem 2rem -1rem;color:#58a0c8">
@@ -44,7 +44,7 @@ with col5:
     )
     st.metric("Top Letter Index", top_letter)
 
-with open("mn.json", "r", encoding="utf-8") as f:
+with open("Streamlit/mn.json", "r", encoding="utf-8") as f:
     geojson = json.load(f)
 
 filtered_df["ISO_Code"] = filtered_df["ISO_Code"].str.replace("-", "")

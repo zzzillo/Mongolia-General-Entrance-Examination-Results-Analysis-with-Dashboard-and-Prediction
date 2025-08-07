@@ -3,8 +3,9 @@ import pandas as pd
 import joblib
 from statsmodels.distributions.empirical_distribution import ECDF
 
-df = pd.read_csv("Combined Dataset.csv")
-model = joblib.load("rf_percentile_model.pkl")
+df = pd.read_csv("Streamlit/Combined Dataset.csv")
+model = joblib.load("Streamlit/rf_percentile_model.pkl")
+
 st.markdown("""
     <div style="background-color:#113f67;padding:15px;margin:-2rem -1rem 2rem -1rem;color:#58a0c8">
         <h1 style="color:#e6f6ff;text-align:center;font-size:36px">Mongolian University Entrance Exam Results Predict Percentile</h1>
