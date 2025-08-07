@@ -25,7 +25,7 @@ An interactive web application for:
 - Predicting percentiles using Machine Learning (Random Forest)
 - Estimating percentile via ECDF (Empirical Cumulative Distribution Function)
 
-[Open the Streamlit App](https://zzzillo-mongolia-university-entrance-examina-1-dashboard-sjx8tr.streamlit.app/)
+[Open the Streamlit App](https://zzzillo-mongolia-university-entranc-streamlit1-dashboard-zunzyl.streamlit.app/)
 
 ### Google Looker Dashboard
 
@@ -54,17 +54,32 @@ A business intelligence dashboard that provides:
 - **README.md**  
   Explains the project overview, purpose, usage, and structure.
 
-## Installation Guide
+## Setup Instructions
 
-To run this project locally:
+Follow these steps to run the project locally:
 
-### 1. Clone the repository
-
-```bash
+   ```bash
+# 1. Clone the repository
 git clone https://github.com/zzzillo/Mongolia-University-Entrance-Examination-Results-Dashboard-and-Prediction.git
+
+#2. Navigate to the project directory
 cd Mongolia-University-Entrance-Examination-Results-Dashboard-and-Prediction
+
+#3. (Optional) Create a virtual environment
 python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+#4. Activate the virtual environment
+  #On macOS/Linux:
+  source venv/bin/activate
+  #On Windows:
+  venv\Scripts\activate
+
+#5. Install the required packages
 pip install -r requirements.txt
+
+#6. Run the Streamlit application
 streamlit run Streamlit/1_Dashboard.py
+
+
+
 
