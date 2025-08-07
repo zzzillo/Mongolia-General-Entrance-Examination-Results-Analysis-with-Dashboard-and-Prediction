@@ -1,4 +1,4 @@
-# Mongolian University Entrance Examination Results Analysis & Dashboard
+# Mongolian General Entrance Examination Results Analysis & Dashboard
 
 ## Project Overview
 
