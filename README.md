@@ -2,9 +2,14 @@
 
 ## Project Overview
 
-This project analyzes student performance data from the Mongolian University Entrance Examinations across multiple subjects and provinces. The objective is to consolidate various subject-specific exam datasets into a unified structure and develop interactive tools to uncover insights about student scores, regional disparities, percentile benchmarks, and exam participation trends.
+This project analyzes student performance data from the result of Mongolia General Entrance Examinations across multiple subjects and provinces. The objective is to consolidate various subject-specific exam datasets into a unified structure and develop interactive tools to uncover insights about student scores, regional disparities, percentile benchmarks, and exam participation trends.
 
 The project follows a complete data science workflow, including data cleaning, exploratory data analysis (EDA), visualization, and predictive modeling.
+
+## Data Source
+
+The datasets used in this project were obtained from Kaggle:
+**Mongolian General Entrance Exam (ЭЕШ) 2025**  (https://www.kaggle.com/datasets/gantugsgantulga/mongolian-general-university-entrance-exam-2025)
 
 ## Objectives
 

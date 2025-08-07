@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 import json
 
-st.set_page_config(page_title="Mongolia National Exam Results Dashboard", layout="wide")
+st.set_page_config(page_title="Mongolia General Entrance Exam Results Dashboard", layout="wide")
 df = pd.read_csv("Streamlit/Combined Dataset.csv")
 
 st.markdown("""
