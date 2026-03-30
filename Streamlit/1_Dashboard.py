@@ -191,26 +191,48 @@ with bar_col2:
 
 
 with bar_col3:
-    st.markdown("<h3 style='font-size:22px; color:#113f67;'><strong>Letter Index Distribution</strong></h3>", unsafe_allow_html=True)
-    letter_order = ['F','E','D-','D','D+','C-','C','C+','B-','B','B+','A-','A']
-    letter_df = (
-        filtered_df["Letterindex"]
+    st.markdown(
+        "<h3 style='font-size:22px; color:#113f67;'><strong>Subject Distribution</strong></h3>",
+        unsafe_allow_html=True
+    )
+
+    # Replace long subject name with abbreviation
+    filtered_df["Subject"] = filtered_df["Subject"].replace(
+        "Mongolian language studies",
+        "MLS"
+    )
+    # Count number of exam takers per subject
+    subject_df = (
+        filtered_df["Subject"]
         .value_counts()
-        .reindex(letter_order)
-        .dropna()
         .reset_index()
     )
-    letter_df.columns = ["Letter", "Count"]
 
-    fig3 = px.bar(letter_df, x="Letter", y="Count", color_discrete_sequence=["#113f67"])
+    subject_df.columns = ["Subject", "Count"]
+
+    # Create bar chart
+    fig3 = px.bar(
+        subject_df,
+        x="Subject",
+        y="Count",
+        color_discrete_sequence=["#113f67"]
+    )
+
     fig3.update_layout(
         margin={"t": 10},
         height=300,
         showlegend=False,
-        xaxis_title="Letter",
-        yaxis_title="Count",
+        xaxis_title="Subject",
+        yaxis_title="Number of Exam Takers",
         font=dict(family="Arial", color="#113f67"),
-        xaxis=dict(title_font=dict(size=14, color="#113f67"), tickfont=dict(size=10, color="#113f67")),
-        yaxis=dict(title_font=dict(size=14, color="#113f67"), tickfont=dict(size=10, color="#113f67"))
+        xaxis=dict(
+            title_font=dict(size=14, color="#113f67"),
+            tickfont=dict(size=10, color="#113f67")
+        ),
+        yaxis=dict(
+            title_font=dict(size=14, color="#113f67"),
+            tickfont=dict(size=10, color="#113f67")
+        )
     )
+
     st.plotly_chart(fig3, use_container_width=True)
