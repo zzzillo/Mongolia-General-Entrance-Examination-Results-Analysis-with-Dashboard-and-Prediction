@@ -12,7 +12,7 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-col3, col4, col5, _, col1, col2 = st.columns(6)
+col3, col4, _, col1, col2 = st.columns(5)
 
 with col1:
     region_options = ["All"] + sorted(df["Region"].dropna().unique().tolist())
@@ -33,16 +33,6 @@ with col3:
 
 with col4:
     st.metric("No. of Exam Results", f"{filtered_df.shape[0]}")
-
-with col5:
-    top_letter = (
-        filtered_df["Letterindex"]
-        .value_counts()
-        .reindex(['A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'C-', 'D+', 'D', 'D-', 'E', 'F'])
-        .dropna()
-        .idxmax()
-    )
-    st.metric("Top Letter Index", top_letter)
 
 with open("Streamlit/mn.json", "r", encoding="utf-8") as f:
     geojson = json.load(f)
